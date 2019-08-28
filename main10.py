@@ -6,14 +6,14 @@ utils.check_version((3,7))          # make sure we are running at least Python 3
 utils.clear()                       # clear the screen
 
 
-print('Greetings!')
-colors = ['red','orange','yellow','green','blue','violet','purple']
-play_again = ''
+print('Greetings!')  # writes out Greetings!
+colors = ['red','orange','yellow','green','blue','violet','purple'] # setting up a array
+play_again = '' # setting up a variable
 best_count = sys.maxsize            # the biggest number
-while (play_again != 'n' and play_again != 'no'):
-    match_color = random.choice(colors)
-    count = 0
-    color = ''
+while (play_again != 'n' and play_again != 'no'): # a while loop  that checks the play_again variable
+    match_color = random.choice(colors) # Sets match_color to one of the colors from the array of colors
+    count = 0 # sets the count variable
+    color = ''# sets the color va
     while (color != match_color):
         color = input("\nWhat is my favorite color? ")  #\n is a special code that adds a new line
         color = color.lower().strip()
