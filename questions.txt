@@ -1,15 +1,15 @@
 Open main1.py. Before running it, what do you expect this program to do? 
-
+It will print "Greetings!" then the next line down it will print "What is my favorite color?" and give a space to input.
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
-
+It printed "Greetings!" then the next line down it printed "What is my favorite color?" and give a space to input.
 What do you think the program did with what you typed?
-
+Put it in a database that you (teach) have access to.
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+It will take the data you gave it in main1.py (aka your favorite color) and print it instead of taking that input.
 What do you think the color = input() will do? 
-
+(set color to the input you put in in main1.ply)
 Run the program in the terminal and answer the question. Did the program do what you expected?
 
 
